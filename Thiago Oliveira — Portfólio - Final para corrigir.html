@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thiago Oliveira — Portfólio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap">
+<!-- Estilos separados em style.css -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pbar"></div><div id="dots"></div><button id="top" aria-label="Voltar ao topo"><svg viewBox="0 0 46 46"><circle cx="23" cy="23" r="20" stroke="var(--bd)"/><circle id="ring" cx="23" cy="23" r="20" stroke="var(--gr)" stroke-dasharray="125.7" stroke-dashoffset="125.7"/></svg>↑</button>
+<!-- Navegacao principal -->
+<nav><b>&lt;TL/&gt;</b><div><a href="#projetos">Projetos</a><a href="#stack">Stack &amp; Skills</a><a href="#trilha">Trajetória</a><a href="#contato">Contato</a></div><a class="lang-switch" href="en.html" lang="en" aria-label="View this page in English">EN</a><button id="tg" aria-label="Alternar tema claro/escuro"></button></nav>
+
+<!-- Secao 01: Apresentacao -->
+<section id="hero">
+<canvas id="cv"></canvas>
+<div class="hw">
+<div class="tag">olá, eu sou</div>
+<h1 id="name">Thiago Lima</h1><div class="hint" id="hint">↑ passe o mouse sobre o nome</div>
+<div class="roles"><em id="role"></em></div>
+<div class="btns"><a class="btn p" href="#projetos">Ver projetos</a><a class="btn" href="#contato">Falar comigo</a></div>
+<div class="stats"><div><b data-n="4">0</b>anos em dados &amp; gestão</div><div><b data-n="55">0</b>franquias treinadas</div><div><b data-n="3">0</b>unidades gerenciadas</div></div>
+</div>
+</section>
+
+<!-- Secao 02: Projetos e portfolio -->
+<section id="projetos"><div class="rv">
+<h2><i>01 / PROJETOS</i>Do código ao chão de fábrica</h2>
+<p class="sub">Sistemas reais, páginas no ar e ferramentas de dados. Filtre por categoria.</p>
+<div class="flt" id="flt"><button class="on" data-f="all">Todos</button><button data-f="sys">Sistemas</button><button data-f="web">Web</button><button data-f="py">Python / Dados</button><button data-f="bi">BI</button></div>
+<div class="grid" id="pg">
+<article class="card feat" data-k="sys">
+<div><span class="kind k-sys">SISTEMA INTERNO</span><h3>Kanban de Produção</h3>
+<p>Fila de produção em kanban com controle de estoque, notificação automática de clientes, painel administrativo e níveis de permissão por função. Clique nos cards ao lado — a demo também anda sozinha.</p>
+<div class="tags"><span>Kanban</span><span>Estoque</span><span>Notificações</span><span>Controle e Acompanhamento</span><span>Admin</span></div>
+<div class="links"><a href="https://github.com/Thiag0-Lima/bazzar_flow" target="_blank" rel="noopener">GitHub ↗</a><a href="https://drive.google.com/file/d/17EnfxVRCqq_MlIDCfrML4pjgNvXm_Ck9/view?usp=sharing" target="_blank" rel="noopener">Ver prévia ↗</a></div></div>
+<div class="kb"><div class="kbh"><span>● producao.sistema</span><span class="ro">perfil: admin</span><span class="st" id="stk">estoque: 84%</span></div><div class="cols" id="cols"></div><div class="toast" id="toast">&nbsp;</div><div class="bar"><i id="sb" style="width:84%"></i></div></div>
+</article>
+
+<article class="card" data-k="web"><span class="kind k-web">LANDING PAGE</span><h3>Belly Lima — O Raso também Pode Afogar</h3><p>Página com foco acadêmico para captação de assinaturas do Pré Save do lançamento do livro</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><div class="links"><a href="https://thiag0-lima.github.io/belly_lima_pre-save/" target="_blank" rel="noopener">Ver no ar ↗</a><a href="https://github.com/Thiag0-Lima/belly_lima_pre-save" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card" data-k="web"><span class="kind k-web">LANDING PAGE</span><h3>Clínica Warley Costa</h3><p>Layout moderno com animações leves, informações bem organizadas e links úteis para pacientes.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><div class="links"><a href="https://thiag0-lima.github.io/Clinica_Warley-Costa/" target="_blank" rel="noopener">Ver no ar ↗</a><a href="https://github.com/Thiag0-Lima/Clinica_Warley-Costa" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card" data-k="web"><span class="kind k-web">LANDING PAGE</span><h3>JRC Uniformes</h3><p>Layout moderno com animações leves e foco em captação de clientes.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><div class="links"><a href="https://thiag0-lima.github.io/jrcuniformes_landing-page/" target="_blank" rel="noopener">Ver no ar ↗</a><a href="https://github.com/Thiag0-Lima/jrcuniformes_landing-page" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card" data-k="web"><span class="kind k-web">LANDING PAGE</span><h3>Bazzar Gráfica Expressa</h3><p>Layout específico para gráficas e editoras, com foco em apresentação de portfólio e captação de leads.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div><div class="links"><a href="https://thiag0-lima.github.io/Bazzar-Grafica_att/" target="_blank" rel="noopener">Ver no ar ↗</a><a href="https://github.com/Thiag0-Lima/Bazzar-Grafica_att" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card" data-k="py"><span class="kind k-py">PYTHON</span><h3>Automação de Análise de Dados</h3><p>Scripts que limpam, cruzam e resumem dados operacionais, reduzindo horas de trabalho manual.</p><div class="tags"><span>Python</span><span>Pandas</span><span>SQL</span></div><div class="links"><a href="https://github.com/Thiag0-Lima/tratamento-dados" target="_blank" rel="noopener">GitHub ↗</a></div></article>
+
+<article class="card" data-k="bi"><span class="kind k-bi">DASHBOARD</span><h3>Painel Comercial &amp; Gargalos</h3><p>KPIs, funil de atendimento e gargalos de processo para a diretoria.</p><div class="tags"><span>Power BI</span><span>Excel</span><span>DAX</span></div><div class="links"><a href="https://drive.google.com/file/d/1ANxsSOP8eUyPNmIdf-uqEk404G45A4VW/view?usp=sharing" target="_blank" rel="noopener">Ver case ↗</a></div></article>
+</div></div></section>
+
+<!-- Secao 03: Tecnologias e habilidades -->
+<section id="stack"><div class="rv">
+<h2><i>02 / STACK &amp; SKILLS</i>Hard skills + soft skills</h2>
+<p class="sub">Clique em qualquer habilidade para ver onde ela foi aplicada na prática.</p>
+<div class="mq" style="margin-bottom:0;border-bottom:0"><div id="mq1"></div></div><div class="mq r"><div id="mq2"></div></div>
+<div class="tabs"><button class="on" data-t="hard">&lt;/&gt; Hard skills</button><button data-t="soft">♥ Soft skills</button></div>
+<div class="sk hard" id="sk"></div>
+<div id="proof"><b>→</b> Selecione uma habilidade.</div>
+</div></section>
+
+<!-- Secao 04: Trajetoria profissional -->
+<section id="trilha"><div class="rv">
+<h2><i>03 / TRAJETÓRIA</i>Do suporte à liderança</h2>
+<p class="sub">Clique para expandir cada etapa.</p>
+<div class="tl" id="tl"></div>
+<div class="grid"><div class="card"><span class="kind k-sys">EDUCAÇÃO</span><h3>Engenharia de Software</h3><p>Uninter · 2024 – 2028</p></div><div class="card"><span class="kind k-web">EDUCAÇÃO</span><h3>Técnico em Editoração Eletrônica</h3><p>Faetec · 2017</p></div></div>
+</div></section>
+
+<!-- Secao 05: Contato -->
+<section id="contato"><div class="rv card" style="text-align:center;padding:50px 20px">
+<h2><i>04 / CONTATO</i>Vamos construir algo?</h2>
+<p class="sub" style="margin:0 auto 24px">Aberto a oportunidades em desenvolvimento, suporte, dados e liderança comercial. <br> <span style="color: orangered;">[ Clt , PJ ou Freelancer ]</span></p>
+<div class="btns" style="justify-content:center">
+    <a class="btn p" href="mailto:thiagoliveira117@gmail.com">E-mail</a>
+    <a class="btn" href="https://wa.me/5524998600216" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn" href="https://www.linkedin.com/in/thiago-oliveira-de-lima-2432a622a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Thiag0-Lima" target="_blank" rel="noopener"> Outros projetos no GitHub</a></div>
+</div></section>
+<!-- Rodape -->
+<footer>© 2026 Thiago Oliveira de Lima · Criciúma, SC</footer>
+
+<!-- Scripts separados em script.js -->
+<script src="script.js"></script>
+</body>
+</html>
